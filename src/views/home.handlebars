@@ -1,0 +1,25 @@
+<h1>LISTA DE PRODUCTOS</h1>
+
+<div class="container-fluid">
+	<div class="row">
+		{{#each products}}
+			<div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
+				<div class="card">
+					<img
+						src="../data/products.json"
+						class="card-img-top"
+						alt="imagen de producto"
+					/>
+					<div class="card-body">
+						<h3 class="card-title text-center">{{this.title}}</h3>
+						<p class="card-text text-center">{{this.description}}</p>
+						<p class="card-text text-center precio">Precio: ${{this.price}}</p>
+						<div class="d-flex justify-content-center align-item-center">
+							<a href="#" class="btn btn-outline-info">Agregar al carrito</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		{{/each}}
+	</div>
+</div>

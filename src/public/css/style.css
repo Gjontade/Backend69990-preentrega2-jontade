@@ -1,0 +1,71 @@
+body {
+	background-color: #373a40;
+}
+
+h1 {
+	color: #03aed2;
+	text-align: center;
+}
+
+.card {
+	background-color: rgba(0, 0, 0, 0.51);
+	margin: 15px;
+	width: auto;
+	height: auto;
+}
+
+h3,
+h3.card-title {
+	color: #712cf9;
+}
+
+p {
+	color: #c5ff95;
+}
+
+.precio {
+	color: #ffa500;
+}
+
+div.formulario {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	border: #ffa500;
+}
+
+h2 {
+	text-align: center;
+	color: #03aed2;
+}
+
+div.div-card {
+  display: flex;
+  justify-content: center;
+}
+
+.card-product {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-product img {
+	width: 100%;
+	height: auto;
+}
+.card-product h3 {
+	font-size: 1.5rem;
+	margin: 0.5rem 0;
+	text-align: center;
+}
+
+.card-product p {
+	margin: 0.5rem 0;
+	text-align: center;
+}
+
+.card-product .precio {
+	font-weight: bold;
+}

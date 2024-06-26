@@ -1,0 +1,31 @@
+<h1>REAL TIME PRODUCTS</h1>
+
+<h2>Formulario para crear productos</h2>
+
+<div class="formulario">
+	<form>
+		<input type="text" id="title" placeholder="Titulo" /><br /><br />
+		<input type="text" id="description" placeholder="Descripcion" /><br /><br />
+		<input type="text" id="code" placeholder="Codigo" /><br /><br />
+		<input type="number" id="price" placeholder="Precio" /><br /><br />
+		<select id="status">
+			<option value="true">Activo</option>
+			<option value="false">Inactivo</option>
+		</select><br /><br />
+		<input type="number" id="stock" placeholder="Stock" /><br /><br />
+		<input type="text" id="category" placeholder="Categoria" /><br /><br />
+		<input type="text" id="img" value="Sin imagen" /><br /><br />
+		<button type="button" id="botonEnviar">Enviar</button>
+	</form>
+</div>
+
+<div class="container-fluid">
+	<div class="d-flex justify-content-center">
+		<div class="card col-6">
+			<div class="card" id="contenedorProductos"></div>
+		</div>
+	</div>
+</div>
+
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+<script src="js/main.js"></script>

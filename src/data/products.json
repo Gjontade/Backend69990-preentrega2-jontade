@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "title": "Gabinete",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, hic.",
+    "code": "AA10",
+    "price": 20000,
+    "status": true,
+    "stock": 2,
+    "category": "componente",
+    "thumbnails": []
+  },
+  {
+    "id": "2",
+    "title": "Silla Gammer",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, hic.",
+    "code": "AA11",
+    "price": 12000,
+    "status": true,
+    "stock": 3,
+    "category": "mueble",
+    "thumbnails": []
+  },
+  {
+    "id": "3",
+    "title": "Pad",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, hic.",
+    "code": "AA12",
+    "price": 500,
+    "status": true,
+    "stock": 25,
+    "category": "dispositivo",
+    "thumbnails": []
+  },
+  {
+    "id": "4",
+    "title": "Mando",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, hic.",
+    "code": "AA09",
+    "price": 5500,
+    "status": true,
+    "stock": 3,
+    "category": "periferico",
+    "thumbnails": []
+  },
+  {
+    "id": "5",
+    "title": "Microfono",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, hic.",
+    "code": "AA08",
+    "price": 7000,
+    "status": true,
+    "stock": 1,
+    "category": "periferico",
+    "thumbnails": []
+  },
+  {
+    "id": "6",
+    "title": "Celular",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, hic.",
+    "code": "AA07",
+    "price": 14000,
+    "status": true,
+    "stock": 10,
+    "category": "dispositivo",
+    "thumbnails": []
+  },
+  {
+    "id": "7",
+    "title": "Teclado",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, hic.",
+    "code": "AA06",
+    "price": 1000,
+    "status": true,
+    "stock": 4,
+    "category": "periferico",
+    "thumbnails": []
+  },
+  {
+    "id": "8",
+    "title": "Auriculares Inalambricos",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, hic.",
+    "code": "AA04",
+    "price": 1500,
+    "status": true,
+    "stock": 7,
+    "category": "periferico",
+    "thumbnails": []
+  },
+  {
+    "id": "9",
+    "title": "Mouse",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, hic.",
+    "code": "AA03",
+    "price": 2500,
+    "status": true,
+    "stock": 2,
+    "category": "periferico",
+    "thumbnails": []
+  },
+  {
+    "id": "10",
+    "title": "Monitor",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, hic.",
+    "code": "AA01",
+    "price": 10000,
+    "status": true,
+    "stock": 10,
+    "category": "periferico",
+    "thumbnails": []
+  }
+]
